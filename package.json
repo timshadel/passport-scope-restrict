@@ -1,0 +1,20 @@
+{
+  "name": "passport-scope-restrict",
+  "version": "0.1.0",
+  "description": "Enforce authorization based on OAuth scopes set by Passport.js.",
+  "keywords": ["express", "connect", "auth", "authn", "authorization", "passport"],
+  "author": "Tim Shadel <tim@shadelsoftware.com>",
+  "repository": { "type": "git", "url": "git+https://github.com/timshadel/passport-scope-restrict.git" },
+  "dependencies": {
+    "simple-debug": "*",
+    "metric-log": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "main": "index"
+}
